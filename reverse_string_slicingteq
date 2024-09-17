@@ -1,0 +1,9 @@
+# reverse a string using slicing
+
+def reverse_string(s):
+    return s[::-1]
+
+
+string1="helloworld"
+reverse=reverse_string(string1)
+print(reverse)
