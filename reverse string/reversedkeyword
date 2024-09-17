@@ -1,0 +1,7 @@
+# reverse a string using reversed keyword
+def reverse_string(s):
+    return ''.join(reversed(s))
+    
+string1="helloworld"
+rev=reverse_string(string1)
+print(rev)
