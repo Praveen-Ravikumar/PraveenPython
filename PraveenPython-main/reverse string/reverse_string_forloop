@@ -1,0 +1,12 @@
+# reverse a string using forloop
+
+def reverse_string(s):
+    rev=""
+    for char in s:
+        rev=char+rev
+    return rev
+
+
+string1="helloworld"
+reverse=reverse_string(string1)
+print(reverse)

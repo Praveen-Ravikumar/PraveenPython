@@ -1,0 +1,13 @@
+# swapping using temp variable 
+a=10
+b=5
+temp=0
+print("before swapping a:",a)
+print("before swapping b:",b)
+
+temp=a
+a=b
+b=temp
+
+print("after swapping a:",a)
+print("after swapping b:",b)
